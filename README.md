@@ -25,12 +25,27 @@ This project utilizes several external datasets to provide accurate music recomm
 
 ## 🏗️ Project Structure
 ```
-MoodTunes/
-│
-├── ...
-│
-├── README.md            
-└── requirements.txt  
+moodtunes/
+├── app/
+│   ├── __init__.py        
+│   ├── routes.py          
+│   ├── services/
+│   │   ├── recognition.py 
+│   │   ├── response.py
+│   │   ├── semantic_search.py
+│   │   └── utils.py       
+│   ├── templates/         
+│   │   ├── index.html     
+│   │   └── result.html    
+│   └── static/
+│       ├── css/          
+│       │   └── style.css
+│       └── js/          
+│           └── script.js
+├── api_key.json    
+├── config.py             
+├── run.py                 
+└── environment.yml  
 ```
 
 ## 🚧 Installation
