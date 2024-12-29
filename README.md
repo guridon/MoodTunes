@@ -1,5 +1,5 @@
-# 🎵 MoodTunes
-MoodTunes is an music recommendation service designed to deliver personalized music suggestions based on your emotions and situational context. By leveraging GraphRAG and semantic search techniques, MoodTunes effectively matches user input with curated song data to provide meaningful recommendations for various activities and moods.
+# 🎵 SoongTunes
+SoongTunes is an music recommendation service designed to deliver personalized music suggestions based on your emotions and situational context. By leveraging GraphRAG and semantic search techniques, SoongTunes effectively matches user input with curated song data to provide meaningful recommendations for various activities and moods.
 
 ## 🚀 Key Features
 > - **Emotion and Context Analysis**   
@@ -24,7 +24,7 @@ To suit the project requirements, only the necessary information from the Melon 
 
 ## 🏗️ Project Structure
 ```
-moodtunes/
+soongtunes/
 ├── app/
 │   ├── __init__.py        
 │   ├── routes.py          
@@ -51,7 +51,7 @@ moodtunes/
 #### Conda Environment Setup
 ```
 conda env create -f environment.yml
-conda activate moodtunes
+conda activate soongtunes
 ```
 ## 📚 Usage
 1. Start the server:
